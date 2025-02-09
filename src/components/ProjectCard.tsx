@@ -50,6 +50,7 @@ const themeColors = {
   "back-end": "#68a063", // Cor do Back-end
   ux: "#FFEB3B", // Cor do UX
   ui: "#FFEB3B", // Cor do UI
+  mundo : "#6B7280", // Cor do Mundo
 };
 
 interface ProjectCardProps {

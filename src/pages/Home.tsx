@@ -11,7 +11,7 @@ export function Home() {
                         <p className="text-lg text-white text-center font-bold">
                             Seja bem-vindo ao meu portfólio!
                         </p>
-                        <h1 className="text-7xl font-bold text-white text-center">
+                        <h1 className="font-bold text-white text-center text-3xl  md:text-6xl lg:text-7xl">
                             Criando Experiências Digitais
                         </h1>
                         <p className="text-lg text-white text-center">
