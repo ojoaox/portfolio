@@ -72,7 +72,7 @@ O design segue uma abordagem minimalista, utilizando a paleta **zinc** do Tailwi
 
 O projeto está online e pode ser acessado via Vercel:
 
-[Acesse Aqui](https://my-portifolio-ojoaoxs-projects.vercel.app)
+[Acesse Aqui](https://portfolio-ojoaoxs-projects.vercel.app/)
 
 
 ## 📝 Licença
