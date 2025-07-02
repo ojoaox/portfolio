@@ -10,7 +10,7 @@ export function Footer() {
                                 href="https://github.com/ojoaox"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block text-white transition-all duration-500 hover:text-blue-600"
+                                className="block text-white transition-all duration-500 hover:text-indigo-600"
                             >
                                 <svg
                                     className="w-8 h-8"
@@ -27,7 +27,7 @@ export function Footer() {
                                 href="https://www.linkedin.com/in/ojoaox"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block text-white transition-all duration-500 hover:text-blue-600"
+                                className="block text-white transition-all duration-500 hover:text-indigo-600"
                             >
                                 <svg
                                     className="w-8 h-8"
@@ -44,7 +44,7 @@ export function Footer() {
                                 href="https://twitter.com/ojoaox_"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block text-white transition-all duration-500 hover:text-blue-600"
+                                className="block text-white transition-all duration-500 hover:text-indigo-600"
                             >
                                 <svg
                                     className="w-8 h-8"
@@ -61,7 +61,7 @@ export function Footer() {
                                 href="mailto:souzajoaovictor555@gmail.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="block text-white transition-all duration-500 hover:text-blue-600"
+                                className="block text-white transition-all duration-500 hover:text-indigo-600"
                             >
                                 <svg
                                     className="w-8 h-8"

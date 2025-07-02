@@ -46,7 +46,7 @@ const ContactForm: React.FC = () => {
                     
                     <div className="mt-8">
                         <h2 className="text-lg font-semibold">E-mail</h2>
-                        <a href="mailto:souzajoaovictor555@gmail.com" className="flex items-center mt-2 text-blue-500 hover:underline">
+                        <a href="mailto:souzajoaovictor555@gmail.com" className="flex items-center mt-2 text-indigo-500 hover:underline">
                             <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm16 4-8 5-8-5v10h16V8zm-8 3 8-5H4l8 5z"></path>
                             </svg>
@@ -57,13 +57,19 @@ const ContactForm: React.FC = () => {
                     <div className="mt-8">
                         <h2 className="text-lg font-semibold">Redes Sociais</h2>
                         <div className="flex space-x-4 mt-3">
-                            <a href="https://github.com/ojoaox" className="text-blue-500 hover:text-blue-600">
-                                <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
-                                    <g fill="#ffffff" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" style={{ mixBlendMode: 'normal' }}>
-                                        <g transform="scale(10.66667,10.66667)">
-                                            <path d="M10.9,2.1c-4.6,0.5 -8.3,4.2 -8.8,8.7c-0.5,4.7 2.2,8.9 6.3,10.5c0.3,0.1 0.6,-0.1 0.6,-0.5v-1.6c0,0 -0.4,0.1 -0.9,0.1c-1.4,0 -2,-1.2 -2.1,-1.9c-0.1,-0.4 -0.3,-0.7 -0.6,-1c-0.3,-0.1 -0.4,-0.1 -0.4,-0.2c0,-0.2 0.3,-0.2 0.4,-0.2c0.6,0 1.1,0.7 1.3,1c0.5,0.8 1.1,1 1.4,1c0.4,0 0.7,-0.1 0.9,-0.2c0.1,-0.7 0.4,-1.4 1,-1.8c-2.3,-0.5 -4,-1.8 -4,-4c0,-1.1 0.5,-2.2 1.2,-3c-0.1,-0.2 -0.2,-0.7 -0.2,-1.4c0,-0.4 0,-0.9 0.2,-1.3c0,-0.2 0.2,-0.3 0.3,-0.3h0.1c0.5,0.1 1.5,0.4 2.4,1.3c0.6,-0.2 1.3,-0.3 2,-0.3c0.7,0 1.4,0.1 2,0.3c0.9,-0.9 2,-1.2 2.5,-1.3h0.1c0.2,0 0.3,0.1 0.4,0.3c0,0.4 0,0.9 0,1.3c0,0.8 -0.1,1.2 -0.2,1.4c0.7,0.8 1.2,1.8 1.2,3c0,2.2 -1.7,3.5 -4,4c0.6,0.5 1,1.4 1,2.3v2.6c0,0.3 0.3,0.6 0.7,0.5c3.7,-1.5 6.3,-5.1 6.3,-9.3c0,-6 -5.1,-10.7 -11.1,-10z"></path>
-                                        </g>
-                                    </g>
+                            <a
+                                href="https://github.com/ojoaox"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block text-white transition-all duration-500 hover:text-indigo-600"
+                            >
+                                <svg
+                                    className="w-6 h-6"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                >
+                                    <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.468-2.38 1.235-3.22-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23.956-.266 1.98-.399 3-.405 1.02.006 2.044.139 3 .405 2.29-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.118 3.176.768.84 1.234 1.91 1.234 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .32.216.694.825.576C20.566 21.795 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
                                 </svg>
                             </a>
                         </div>
@@ -77,7 +83,7 @@ const ContactForm: React.FC = () => {
                         placeholder="Nome"
                         value={nome}
                         onChange={(e) => setNome(e.target.value)}
-                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <input
@@ -86,7 +92,7 @@ const ContactForm: React.FC = () => {
                         placeholder="E-mail"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <input
@@ -95,7 +101,7 @@ const ContactForm: React.FC = () => {
                         placeholder="Assunto"
                         value={assunto}
                         onChange={(e) => setAssunto(e.target.value)}
-                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <textarea
@@ -104,12 +110,12 @@ const ContactForm: React.FC = () => {
                         rows={5}
                         value={mensagem}
                         onChange={(e) => setMensagem(e.target.value)}
-                        className="w-full rounded-lg px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm pt-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full rounded-lg px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm pt-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <button
                         type="submit"
-                        className="w-full text-white bg-blue-500 hover:bg-blue-600 font-medium rounded-lg text-sm px-4 py-3 transition"
+                        className="w-full text-white bg-indigo-500 hover:bg-indigo-600 font-medium rounded-lg text-sm px-4 py-3 transition"
                     >
                         Enviar Mensagem
                     </button>
