@@ -3,7 +3,7 @@ import Accordion from './Accordion'; // Ajuste o caminho conforme necessário
 export function Header() {
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 bg-zinc-800 shadow-lg z-50">
+      <header className="fixed top-0 left-0 right-0 bg-neutral-900 shadow-lg z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           {/* Logo e nome */}
           <div className="flex items-center">

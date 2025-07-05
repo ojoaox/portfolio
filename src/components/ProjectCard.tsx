@@ -80,7 +80,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   };
 
   return (
-    <div className="relative max-w-lg rounded-lg overflow-hidden shadow-lg bg-zinc-800 border border-zinc-700">
+    <div className="relative max-w-lg rounded-lg overflow-hidden shadow-lg bg-neutral-800 border border-neutral-700">
       {/* Container da imagem */}
       <div className="relative h-48 w-full overflow-hidden">
         <img
@@ -113,7 +113,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       {/* Conteúdo do card */}
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-white">{projectName}</div>
-        <p className="text-zinc-300 text-base">{projectDescription}</p>
+        <p className="text-neutral-300 text-base">{projectDescription}</p>
       </div>
 
       {/* Temas do projeto */}

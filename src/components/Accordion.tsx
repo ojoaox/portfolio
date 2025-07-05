@@ -54,13 +54,13 @@ const Accordion: React.FC = () => {
 
             <div
                 id="accordion-content"
-                className={`absolute right-0 mt-2 w-48 bg-zinc-700 rounded-lg shadow-lg py-2 ${isOpen ? 'block' : 'hidden'
+                className={`absolute right-0 mt-2 w-48 bg-neutral-700 rounded-lg shadow-lg py-2 ${isOpen ? 'block' : 'hidden'
                     }`}
             >
                 <a
                     href="mailto:souzajoaovictor555@gmail.com"
                     target="_blank"
-                    className="block px-4 py-2 hover:bg-zinc-600 text-white"
+                    className="block px-4 py-2 hover:bg-neutral-600 text-white"
                 >
                     Email
                 </a>
@@ -68,7 +68,7 @@ const Accordion: React.FC = () => {
                     href="https://github.com/ojoaox"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block px-4 py-2 hover:bg-zinc-600 text-white"
+                    className="block px-4 py-2 hover:bg-neutral-600 text-white"
                 >
                     GitHub
                 </a>
@@ -76,7 +76,7 @@ const Accordion: React.FC = () => {
                     href="https://linkedin.com/in/ojoaox"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block px-4 py-2 hover:bg-zinc-600 text-white"
+                    className="block px-4 py-2 hover:bg-neutral-600 text-white"
                 >
                     LinkedIn
                 </a>

@@ -1,7 +1,7 @@
 export function Footer() {
     return (
         <>
-            <footer className="w-full bg-zinc-800 py-14">
+            <footer className="w-full bg-neutral-950 py-14">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="max-w-3xl mx-auto">
                         <div className="flex space-x-10 justify-center items-center mb-14">
@@ -73,7 +73,7 @@ export function Footer() {
                                 </svg>
                             </a>
                         </div>
-                        <span className="text-lg text-zinc-500 text-center block">
+                        <span className="text-lg text-neutral-500 text-center block">
                             © <a href="https://github.com/ojoaox">João Victor</a> 2025, Todos os direitos reservados.
                         </span>
                     </div>

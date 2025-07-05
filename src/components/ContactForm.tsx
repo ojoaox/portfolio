@@ -39,10 +39,10 @@ const ContactForm: React.FC = () => {
 
     return (
         <section id="contact" className="container mx-auto py-20">
-            <div className="grid sm:grid-cols-2 items-start gap-12 p-6 mx-auto bg-white dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 shadow-lg rounded-2xl">
+            <div className="grid sm:grid-cols-2 items-start gap-12 p-6 mx-auto bg-white dark:bg-neutral-900 text-neutral-800 dark:text-neutral-200 shadow-lg rounded-2xl">
                 <div>
                     <h1 className="text-3xl font-bold">Entre em Contato</h1>
-                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-3">Tem um projeto incrível em mente? Vamos conversar e trazer suas ideias para a realidade!</p>
+                    <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-3">Tem um projeto incrível em mente? Vamos conversar e trazer suas ideias para a realidade!</p>
                     
                     <div className="mt-8">
                         <h2 className="text-lg font-semibold">E-mail</h2>
@@ -83,7 +83,7 @@ const ContactForm: React.FC = () => {
                         placeholder="Nome"
                         value={nome}
                         onChange={(e) => setNome(e.target.value)}
-                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        className="w-full rounded-lg py-3 px-4 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <input
@@ -92,7 +92,7 @@ const ContactForm: React.FC = () => {
                         placeholder="E-mail"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        className="w-full rounded-lg py-3 px-4 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <input
@@ -101,7 +101,7 @@ const ContactForm: React.FC = () => {
                         placeholder="Assunto"
                         value={assunto}
                         onChange={(e) => setAssunto(e.target.value)}
-                        className="w-full rounded-lg py-3 px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        className="w-full rounded-lg py-3 px-4 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <textarea
@@ -110,7 +110,7 @@ const ContactForm: React.FC = () => {
                         rows={5}
                         value={mensagem}
                         onChange={(e) => setMensagem(e.target.value)}
-                        className="w-full rounded-lg px-4 bg-zinc-100 dark:bg-zinc-800 text-zinc-800 dark:text-zinc-200 text-sm pt-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        className="w-full rounded-lg px-4 bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm pt-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         required
                     />
                     <button

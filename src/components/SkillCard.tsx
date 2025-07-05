@@ -7,7 +7,7 @@ interface SkillCardProps {
 
 const SkillCard: React.FC<SkillCardProps> = ({ iconUrl, skillName }) => {
   return (
-    <div className="bg-zinc-700/20 p-6 rounded-lg flex flex-col items-center hover:bg-zinc-800/30 transition duration-300">
+    <div className="bg-neutral-700/20 p-6 rounded-lg flex flex-col items-center hover:bg-neutral-800/30 transition duration-300">
       <img 
         src={iconUrl} 
         alt={skillName} 
